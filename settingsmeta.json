@@ -65,7 +65,7 @@
           {
             "name": "auto_speech",
             "type": "text",
-            "label": "speak this when automatically answering calls",
+            "label": "speak this when answering",
             "value": "I am busy, call again later"
           },
           {
@@ -77,13 +77,31 @@
         ]
       },
       {
-        "name": "Fallback priority",
+        "name": "SipXCom",
         "fields": [
           {
-            "name": "priority",
-            "type": "number",
-            "label": "priority",
-            "value": "5"
+            "name": "sipxcom_gateway",
+            "type": "text",
+            "label": "sipxcom REST api url",
+            "value": "https://sipx.mattkeys.net"
+          },
+          {
+            "name": "sipxcom_user",
+            "type": "text",
+            "label": "sipxcom username",
+            "value": "MattKeys"
+          },
+          {
+            "name": "sipxcom_password",
+            "type": "password",
+            "label": "sipxcom password",
+            "value": "secret"
+          },
+          {
+            "name": "sipxcom_sync",
+            "type": "checkbox",
+            "label": "automatically retrieve contacts from sipxcom",
+            "value": "false"
           }
         ]
       }

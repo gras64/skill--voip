@@ -50,10 +50,17 @@ X is assumed to be a previously configured contact
 - answer all calls
 - answer all calls with Y
 - reject all calls
+- Do not handle calls automatically
 - how many contacts
 - List contacts
+- Call status
 
 There also a few admin/debug intents, you should never need to use these
 
 - restart sip
 - sip login
+
+
+# Credits
+
+This work as been sponsored by Matt Keys, [eZuce Inc](https://ezuce.com/)
